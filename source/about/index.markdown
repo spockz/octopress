@@ -7,11 +7,14 @@ sharing: true
 footer: true
 ---
 
-Alessandro Vermeulen is a Computer Sciences student at Utrecht University
-specialized in Software Technology. Among his core interests at university are
-Haskell, compilers and program analysis. Herein also lay his professional
-interests. Alessandro is currently employed at [BINK software
-B.V.](http://www.binksoftware.bv) where he maintains the CRM and licensing
+Alessandro Vermeulen is a Computer Sciences (Masters) student at Utrecht
+University specialized in Software Technology. Alessandro obtained his honorary
+Bachelors degree in Computer Science also at Utrecht University. Among his core
+interests at university are Haskell, compilers and program analysis. Herein also
+lay his professional interests.
+
+Alessandro is currently employed at [BINK software
+B.V.](http://www.binksoftware.nl) where he maintains the CRM and licensing
 mechanisms as well the technical side of the web presence.
 
 Among his hobbies are Volleyball (currently at U.S.V. Protos) and

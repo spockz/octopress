@@ -6,18 +6,16 @@ comments: true
 sharing: true
 footer: true
 ---
-
-## Some of my most amazing photo's
-
 Please wait a moment while the photo's are loaded from my
 [flickr](http://www.flickr.com/photoos/spockz "Spockz' photostream") account.
 
-<div id="cesc" style="height:420px; margin:0 auto;">
+<div id="photos" class="photoslider">
     <p>Please enable Javascript to view this slideshow</p>
 </div>
+
 <script src="http://www.flickrshow.co.uk/static/scripts/flickrshow-7.2.min.js"></script>
 <script>
-    var cesc = new flickrshow('cesc', {
+    var cesc = new flickrshow('photos', {
         autoplay:true,
         interval:5000,
         license:null,
