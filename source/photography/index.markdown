@@ -9,9 +9,10 @@ footer: true
 Please wait a moment while the photo's are loaded from my
 [flickr](http://www.flickr.com/photoos/spockz "Spockz' photostream") account.
 
-<div id="photos" class="photoslider">
-    <p>Please enable Javascript to view this slideshow</p>
-</div>
+<div id="photos" class="photoslider"></div>
+<noscript>
+  <p>Please enable Javascript to view this slideshow</p>
+</noscript>
 
 <script src="http://www.flickrshow.co.uk/static/scripts/flickrshow-7.2.min.js"></script>
 <script>
