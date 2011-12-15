@@ -3,6 +3,7 @@ layout: post
 title: How To setup AFP on Debian Lenny
 tags: []
 
+comments: true
 ---
 After some time of struggling with MacFuse (+MacFusion) and SSHFS I set out to get something that works nice, is integrated in OS X nicely and above all, is not sslooow. AFP which is all of this is available for Debian but without support of the new encrypted password mechanism.
 

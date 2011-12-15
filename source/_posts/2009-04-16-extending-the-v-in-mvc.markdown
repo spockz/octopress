@@ -7,6 +7,7 @@ tags:
 - partials
 - partial
 - rss
+comments: true
 ---
 A revised edition is <a href="http://alessandrovermeulen.me/2009/07/12/extending-the-v-in-mvc-revisited/">available</a>. There is now no more need to download the PDF.
 

@@ -6,6 +6,7 @@ tags:
 - uuagc
 - textmate
 - attribute grammars
+comments: true
 ---
 I'm proud to announce the release of the <a title="GitHub repository of the
 UUAGC TextMate Bundle"

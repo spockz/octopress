@@ -4,6 +4,7 @@ title: "Haskell Datatypes and Folds: Part I"
 tags: 
 - haskell
 - fold
+comments: true
 ---
 Welcome to this little explanation on how to determine the fold of a Haskell
 datatype. First we'll look at how we define functions over lists, something

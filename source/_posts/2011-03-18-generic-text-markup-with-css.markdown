@@ -6,6 +6,7 @@ tags:
 - css
 - latex
 - open source
+comments: true
 ---
 Most of you are familiar with CSS reset scripts to reset CSS behaviour to
 something uniform across several browsers. I have been searching for a good CSS

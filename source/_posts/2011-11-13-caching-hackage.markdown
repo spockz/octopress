@@ -4,6 +4,7 @@ title: Caching hackage
 tags: 
 - haskell
 - hackage
+comments: true
 ---
 On several occasions I noticed that when performing a `cabal update` that the
 index was being downloaded at the rate of plus min 300 KB/s. Finally I got around to do

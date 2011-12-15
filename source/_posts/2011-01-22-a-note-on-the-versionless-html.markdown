@@ -6,6 +6,7 @@ tags:
 - html5
 - xhtml
 - css
+comments: true
 ---
 Yesterday WhatWG announced to drop the versioning of HTML. HTML is to be a <a
 href="http://blog.whatwg.org/html-is-the-new-html5">living standard</a>. This

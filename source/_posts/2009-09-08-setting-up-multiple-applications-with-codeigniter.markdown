@@ -3,6 +3,7 @@ layout: post
 title: Setting up multiple applications with CodeIgniter
 tags: 
 - codeigniter
+comments: true
 ---
 In addition to my previous post where I discussed the <a title="Setting up
 CodeIgniter Basics"

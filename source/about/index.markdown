@@ -13,9 +13,9 @@ Bachelors degree in Computer Science also at Utrecht University. Among his core
 interests at university are Haskell, compilers and program analysis. Herein also
 lay his professional interests.
 
-Alessandro is currently employed at [BINK software
-B.V.](http://www.binksoftware.nl) where he maintains the CRM and licensing
-mechanisms as well the technical side of the web presence.
+Alessandro is currently employed at [BINK software B.V.](http://www.binksoftware.nl) 
+where he maintains the CRM and licensing mechanisms as well the technical side
+of the web presence.
 
 Among his hobbies are Volleyball (currently at U.S.V. Protos) and
 [photography](/photography).

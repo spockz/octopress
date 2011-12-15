@@ -4,6 +4,7 @@ title: lhs2TeX-hl 1.2.2 released
 tags: 
 - lhs2tex-hl
 - open source
+comments: true
 ---
 Changelog:
 <ol>

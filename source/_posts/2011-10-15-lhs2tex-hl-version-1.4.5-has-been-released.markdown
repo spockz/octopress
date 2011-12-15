@@ -4,6 +4,7 @@ title: lhs2TeX-hl version 1.4.5 has been released!
 tags: 
 - haskell
 - lhs2tex-hl
+comments: true
 ---
 I've just released a new version of <a href="http://alessandrovermeulen.me/projects/lhs2texhl/" title="lhs2TeX HighLighter ">lhs2TeX-hl</a>: 1.4.5 and it includes some new features:
 

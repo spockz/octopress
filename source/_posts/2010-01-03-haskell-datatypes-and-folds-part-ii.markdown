@@ -5,6 +5,7 @@ tags:
 - haskell
 - fold
 - type algebra
+comments: true
 ---
 <h3>Non-mutually recursive and Mutually recursive datatypes</h3>
 Welcome back. In this post we will look at creating type algebra's and folds for more complicated data types. In essence, this exercise will not be any more difficult than the previous ones, provided that you stick with the steps. Up in this part, are the non-mutually recursive datatypes and mutually recursive datatypes.

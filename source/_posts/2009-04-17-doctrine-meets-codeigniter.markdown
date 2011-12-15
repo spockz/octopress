@@ -6,6 +6,7 @@ tags:
 - php
 - doctrine
 - orm
+comments: true
 ---
 Anyone who has made websites in the past has encountered it. The endless bugging typing of SQL queries, always doing the same over and over again. This struggle is lightened by the use of frameworks or even complete CM-Systems. However, SQL query writing is still often needed.
 

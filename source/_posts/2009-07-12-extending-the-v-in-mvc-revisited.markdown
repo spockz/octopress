@@ -9,6 +9,7 @@ tags:
 - rss
 - php
 - layout
+comments: true
 ---
 This post is an revised version of 'Extending the V in MVC on the web' of November 9, 2008.
 

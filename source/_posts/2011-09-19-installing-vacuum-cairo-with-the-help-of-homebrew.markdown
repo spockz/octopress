@@ -5,6 +5,7 @@ tags:
 - haskell
 - ghc
 - cabal
+comments: true
 ---
 I tried installing vacuum-cairo on OS X 10.6 but it failed. With the help of <a
 href="http://mxcl.github.com/homebrew/" title="HomeBrew">HomeBrew</a> I
