@@ -6,6 +6,7 @@ tags:
 - haskell platform
 - debian
 - lenny
+comments: true
 ---
 Currently there is no package for the Haskell-Platform in Debian stable. However, the source of this platform and GHC is available for download at <a href="http://www.haskell.org/ghc/">ghc</a> and <a href="http://www.haskell.org/platform">platform</a>.
 

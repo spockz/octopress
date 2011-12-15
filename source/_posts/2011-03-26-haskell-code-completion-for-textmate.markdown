@@ -5,6 +5,7 @@ tags:
 - haskell
 - textmate
 - open source
+comments: true
 ---
 Today I released my script for basic code completion support in TextMate.
 

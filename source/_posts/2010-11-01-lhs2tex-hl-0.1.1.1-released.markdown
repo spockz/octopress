@@ -6,6 +6,7 @@ tags:
 - lhs2tex
 - lhs2tex-hl
 - open source
+comments: true
 ---
 After the <a
 href="http://alessandrovermeulen.me/2010/10/23/lhs2tex-hl-released/">first

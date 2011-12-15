@@ -3,6 +3,7 @@ layout: post
 title: Setting up CodeIgniter - Basics
 tags: 
 - codeigniter
+comments: true
 ---
 In this post I'll show how to set up CodeIgniter in a way that your code and configuration (passwords!) are safe. It will involve moving the "<em>system</em>" and "<em>application</em>" outside the (public) document root.
 

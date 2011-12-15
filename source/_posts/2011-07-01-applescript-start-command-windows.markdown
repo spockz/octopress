@@ -4,6 +4,7 @@ title: Applescript script to emulate the behaviour of the `start' command in the
 tags: 
 - os x
 - applescript
+comments: true
 ---
 People have asked me how to launch a program through the terminal in the
 background but with it's own terminal screen similar to the way the "start"

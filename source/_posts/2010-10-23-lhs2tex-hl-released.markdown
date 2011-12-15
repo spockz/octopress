@@ -8,6 +8,7 @@ tags:
 - colour
 - lhs2tex-hl
 - open source
+comments: true
 ---
 I'm proud to announce the first release of my lhs2TeX-hl tool. For us who fancy using colours in our presentations or papers this should now go a whole lot easier. Go to the <a href="http://alessandrovermeulen.me/projects/lhs2texhl/">lhs2TeX-hl homepage</a>!
 
