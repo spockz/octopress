@@ -21,7 +21,9 @@ folders. So for example store your CodeIgniter system folder in
 <em>/var/codeigniter/</em>. This could be done by doing a svn export (or
 checkout) with the following command-line statement:
 
-[bash light="true"]$ svn export http://dev.ellislab.com/svn/CodeIgniter/tags/v1.7.1/system/ /var/codeigniter/release-1.7.1[/bash]
+``` bash
+$ svn export http://dev.ellislab.com/svn/CodeIgniter/tags/v1.7.1/system/ /var/codeigniter/release-1.7.1
+```
 
 Or you can download the <a
 href="http://www.codeigniter.com/download_files/CodeIgniter_1.7.1.zip">1.7.1
@@ -34,7 +36,9 @@ document root you could pick <em>/var/applications/</em> as root directory for
 your CI applications. Now if you want to make a blog you just have to execute
 this command:
 
-[bash light="true"]$ svn export http://dev.ellislab.com/svn/CodeIgniter/tags/v1.7.1/system/application/ /var/applications/blog[/bash] or [bash light="true"]$ cp /var/codeigniter/release-1.7.1/application /var/applications/blog[/bash]
+``` bash
+$ svn export http://dev.ellislab.com/svn/CodeIgniter/tags/v1.7.1/system/application/ /var/applications/blog[/bash] or [bash light="true"]$ cp /var/codeigniter/release-1.7.1/application /var/applications/blog
+```
 
 I prefer the SVN export as this will ensure that you always have a fresh copy.
 Otherwise, should you find yourself without an internet connection you can use
@@ -44,16 +48,26 @@ Now just as in the previous post, create the directory in the document root
 (whether you want to access it through a subfolder or directly through a
 sub-domain/domain is entirely up to you and is outside the scope of this post.)
 
-[bash light="true"]$ mkdir /var/www/blog[/bash] Now get the index.php file from svn or from the zip file you might have downloaded earlier:
-[bash light="true"]svn export http://dev.ellislab.com/svn/CodeIgniter/tags/v1.7.1/index.php /var/applications/blog/[/bash]
+``` bash
+$ mkdir /var/www/blog
+``` 
+
+Now get the index.php file from svn or from the zip file you might have
+downloaded earlier:
+
+``` bash
+svn export http://dev.ellislab.com/svn/CodeIgniter/tags/v1.7.1/index.php /var/applications/blog/
+```
 
 The only thing left is to alter the index.php so the <em>$system_folder</em> and
 the <em>$application_folder</em> point in the right direction:
 
-[php gutter="false"] //...
+``` php 
+//...
 $system_folder = '/var/codeigniter/release-1.7.1';
 //...
-$application_folder = '/var/applications/blog';[/php]
+$application_folder = '/var/applications/blog';
+```
 
 Now you can add your web stuff like CSS, JS to your /var/www/blog. Of course
 this follows the same principle as creating the non-www and www directories
