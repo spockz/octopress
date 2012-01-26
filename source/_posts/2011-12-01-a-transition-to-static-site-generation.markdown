@@ -30,3 +30,7 @@ to
 ```ruby Gemfile
   gem 'rb-fsevent', "0.9.0.pre4"
 ```
+
+**Update**
+The comments have been exported with the Wordpress plugin to Disqus. I'm
+currently looking at how to highlight code within Disqus comments.
