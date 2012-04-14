@@ -6,6 +6,8 @@ tags:
 - hackage
 comments: true
 ---
+{{:toc}}
+
 On several occasions I noticed that when performing a `cabal update` that the
 index was being downloaded at the rate of plus min 300 KB/s. Finally I got around to do
 something about this. I've set up a caching server located in Utrecht, The
