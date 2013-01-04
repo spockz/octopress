@@ -151,7 +151,7 @@ data BinTree a = Node a (BinTree a) (BinTree a) | Leaf deriving (Show, Eq)
 In this case `BinTree` is the <em>type constructor</em> and
 `Node` and `Leaf` the data <em>data constructors</em>.
 
-Remember that the goal of folds is to seperate the implementation of the
+Remember that the goal of folds is to separate the implementation of the
 recursion from the actual operation we want to execute on the datatype. So we
 have one function, the <em>fold</em>, that takes care of the recursion and
 several other functions that use this fold to specify certain semantics on the
