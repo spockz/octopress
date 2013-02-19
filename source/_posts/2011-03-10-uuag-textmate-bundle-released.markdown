@@ -2,7 +2,7 @@
 layout: post
 title: UUAG TextMate Bundle released
 tags: 
-- haskell
+- Haskell
 - uuagc
 - textmate
 - attribute grammars

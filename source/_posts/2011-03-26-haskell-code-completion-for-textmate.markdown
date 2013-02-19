@@ -2,7 +2,7 @@
 layout: post
 title: Haskell code completion for TextMate
 tags: 
-- haskell
+- Haskell
 - textmate
 - open source
 comments: true

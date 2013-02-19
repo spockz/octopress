@@ -2,7 +2,7 @@
 layout: post
 title: Caching hackage
 tags: 
-- haskell
+- Haskell
 - hackage
 comments: true
 ---

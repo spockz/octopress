@@ -2,7 +2,7 @@
 layout: post
 title: "Haskell Datatypes and Folds: Part I"
 tags: 
-- haskell
+- Haskell
 - fold
 comments: true
 ---

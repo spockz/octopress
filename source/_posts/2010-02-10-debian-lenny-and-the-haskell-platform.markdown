@@ -2,8 +2,8 @@
 layout: post
 title: Debian Lenny and the Haskell Platform
 tags: 
-- haskell
-- haskell platform
+- Haskell
+- Haskell platform
 - debian
 - lenny
 comments: true

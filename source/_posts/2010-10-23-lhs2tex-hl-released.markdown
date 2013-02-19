@@ -2,7 +2,7 @@
 layout: post
 title: lhs2TeX-hl released
 tags: 
-- haskell
+- Haskell
 - lhs2tex
 - syntax highlighting
 - colour

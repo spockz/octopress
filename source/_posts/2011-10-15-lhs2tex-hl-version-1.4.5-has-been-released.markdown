@@ -2,7 +2,7 @@
 layout: post
 title: lhs2TeX-hl version 1.4.5 has been released!
 tags: 
-- haskell
+- Haskell
 - lhs2tex-hl
 comments: true
 ---

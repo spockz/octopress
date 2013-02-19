@@ -2,7 +2,7 @@
 layout: post
 title: "Datatypes and Folds: Part II"
 tags: 
-- haskell
+- Haskell
 - fold
 - type algebra
 comments: true

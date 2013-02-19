@@ -2,7 +2,7 @@
 layout: post
 title: lhs2TeX-hl 0.1.1.1 released
 tags: 
-- haskell
+- Haskell
 - lhs2tex
 - lhs2tex-hl
 - open source
