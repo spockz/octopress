@@ -17,8 +17,8 @@ Alessandro is currently employed at [BINK software B.V.](http://www.binksoftware
 where he maintains the CRM and licensing mechanisms as well the technical side
 of the web presence.
 
-Among his hobbies are Volleyball (currently at U.S.V. Protos) and
-[photography](/photography).
+Among his hobbies are Volleyball and
+[photography](/photography). Additionally Alessandro is also a referee in the NeVoBo competition.
 
 ## Practical information
 ### My Public Key
