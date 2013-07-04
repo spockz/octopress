@@ -1,10 +1,108 @@
 @import "compass";
-@include global-reset;
-@include reset-html5;
 
-@import "custom/colors";
-@import "custom/fonts";
-@import "custom/layout";
-@import "base";
-@import "partials";
-@import "custom/styles";
+$sansFontFamily: "Palatino", "Palatino Linotype";
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+$text-color: #999;
+@import "_font-awesome.sass";
+
+@import "partials/archive";
+
+a, .navbar .nav > li > a{
+  color: rgb(196, 95, 49);
+}
+
+.navbar {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  height: 38px;
+  #font-family: 'Palatino';
+}
+
+footer#pagefooter {
+  padding-top: 10px;
+  border-top: 1px solid #333;
+}
+
+
+.navbar .brand, .navbar .nav > li > a {
+  text-shadow: none;
+}
+
+#pageheader {
+  margin-top: 40px;
+}
+
+p {
+  text-align: justify;
+}
+
+#banner, #maincontent {
+  padding-left: 10px;
+}
+
+.navbar .brand, h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #333;
+}
+
+#main aside h1 {
+  font-size: 25px;
+}
+
+#main h1 {
+  font-size: 35px;
+}
+
+aside.sidebar section.tag-cloud .rank-5 {font-size:small}
+aside.sidebar section.tag-cloud .rank-4 {font-size:normal}
+aside.sidebar section.tag-cloud .rank-3 {font-size:1.5em}
+aside.sidebar section.tag-cloud .rank-2 {font-size:1.7em}
+aside.sidebar section.tag-cloud .rank-1 {font-size:1.9em}
+
+article {
+  border-bottom: 1px dotted #333;
+  padding-bottom: 1em;
+}
+
+article:last-of-type {
+  border-bottom: 0;
+}
+
+div.photoslider {
+  height: 420px;
+}
+
+// 1920px min
+$gridColumnWidth1920:     85px !default;
+$gridGutterWidth1920:     40px !default;
+$gridRowWidth1920:        ($gridColumns * $gridColumnWidth1920) + ($gridGutterWidth1920 * ($gridColumns - 1)) !default;
+
+// 1920px min
+$fluidGridColumnWidth1920:     percentage($gridColumnWidth1920/$gridRowWidth1920) !default;
+$fluidGridGutterWidth1920:     percentage($gridGutterWidth1920/$gridRowWidth1920) !default;
+
+@media (min-width: 1900px) {
+
+  // Fixed grid
+  @include grid-core(90px, 40px);
+
+  // Fluid grid
+  @include grid-fluid($fluidGridColumnWidth1920, $fluidGridGutterWidth1920);
+
+  // Input grid
+  @include grid-input(90px, 40px);
+
+  // Thumbnails
+  .thumbnails {
+    margin-left: -40px;
+  }
+  .thumbnails > li {
+    margin-left: 40px;
+  }
+  .row-fluid .thumbnails {
+    margin-left: 0;
+  }
+
+}

@@ -1,5 +1,6 @@
 # Require any additional compass plugins here.
 project_type = :stand_alone
+require 'bootstrap-sass'
 
 # Publishing paths
 http_path = "/"
@@ -14,3 +15,4 @@ fonts_dir = "source/fonts"
 
 line_comments = false
 output_style = :compressed
+

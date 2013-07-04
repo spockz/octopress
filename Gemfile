@@ -9,6 +9,7 @@ group :development do
   gem 'RedCloth'
   gem 'haml', '>= 3.1'
   gem 'compass', '>= 0.11'
+  gem 'bootstrap-sass', '~> 2.3.2.0'
   gem 'rubypants'
   gem 'rb-fsevent', "0.9.0.pre4"
   gem 'stringex'
