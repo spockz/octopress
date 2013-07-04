@@ -74,6 +74,10 @@ div.photoslider {
   height: 420px;
 }
 
+.unstyled li.nav-header {
+  padding-left: 0;
+}
+
 // 1920px min
 $gridColumnWidth1920:     85px !default;
 $gridGutterWidth1920:     40px !default;
