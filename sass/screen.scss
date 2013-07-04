@@ -38,8 +38,16 @@ p {
   text-align: justify;
 }
 
-#banner, #maincontent {
-  padding-left: 10px;
+#banner, #main .span9 {
+  padding-left: 15px;
+}
+
+#main .span3 {
+  padding-right: 10px;
+}
+
+#blog-archives article h1 {
+  margin-top: 0;
 }
 
 .navbar .brand, h1, h2, h3, h4, h5, h6,
@@ -64,6 +72,10 @@ aside.sidebar section.tag-cloud .rank-1 {font-size:1.9em}
 article {
   border-bottom: 1px dotted #333;
   padding-bottom: 1em;
+
+  h1.entry-title {
+    margin-bottom: -3px;
+  }
 }
 
 article:last-of-type {
