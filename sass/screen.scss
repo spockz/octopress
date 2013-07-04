@@ -1,6 +1,17 @@
+@font-face {
+  font-family: pagella;
+  src: url('../fonts/texgyrepagella-regular.otf'),
+      url('../fonts/texgyrepagella-regular.eot'),
+      url('../fonts/texgyrepagella-regular.svg'),
+      url('../fonts/texgyrepagella-regular.ttf')
+      url('../fonts/texgyrepagella-regular.woff');
+}
+
 @import "compass";
 
-$sansFontFamily: "Palatino", "Palatino Linotype";
+$sansFontFamily: Palatino, Palatino Linotype, pagella;
+$serifFontFamily: Palatino, Palatino Linotype, pagella;
+
 @import "bootstrap";
 @import "bootstrap-responsive";
 
@@ -72,10 +83,6 @@ aside.sidebar section.tag-cloud .rank-1 {font-size:1.9em}
 article {
   border-bottom: 1px dotted #333;
   padding-bottom: 1em;
-
-  h1.entry-title {
-    margin-bottom: -3px;
-  }
 }
 
 article:last-of-type {
