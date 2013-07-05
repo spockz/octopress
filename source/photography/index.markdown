@@ -9,18 +9,15 @@ footer: true
 Please wait a moment while the photo's are loaded from my
 [flickr](http://www.flickr.com/photoos/spockz "Spockz' photostream") account.
 
-<div id="photos" class="photoslider"></div>
-<noscript>
-  <p>Please enable Javascript to view this slideshow</p>
-</noscript>
 
-<script src="http://www.flickrshow.co.uk/static/scripts/flickrshow-7.2.min.js"></script>
-<script>
-    var cesc = new flickrshow('photos', {
-        autoplay:true,
-        interval:5000,
-        license:null,
-        tags:'publish-site',
-        user:'34107923@N05'
-    });
-</script>
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
+

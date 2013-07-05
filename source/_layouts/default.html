@@ -5,6 +5,13 @@
   <section class="container">
     <header role="banner">{% include header.html %}</header>
     <nav role="navigation">{% include navigation.html %}</nav>
+    <!--[if lt IE 9]>
+    <div class="alert alert-block">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <h4>Warning!</h4>
+      Your version of Internet Explorer is seriously outdated. Please upgrade to a decent version of <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a> or <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>.
+    </div>
+    <![endif]-->
     <div id="main">
       <div id="content">
         {{ content | expand_urls: root_url }}
@@ -13,5 +20,11 @@
     <footer role="contentinfo" id="pagefooter">{% include footer.html %}</footer>
     {% include after_footer.html %}
   </section>
+
+
+  <script src="{{ root_url }}/javascripts/modernizr-2.0.js" type="text/javascript"></script>
+  <script src="{{ root_url }}/javascripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <script src="{{ root_url }}/javascripts/photography.js" type="text/javascript"></script>
 </body>
 </html>
