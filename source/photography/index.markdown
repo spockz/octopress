@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 Please wait a moment while the photo's are loaded from my
-[flickr](http://www.flickr.com/photoos/spockz "Spockz' photostream") account.
+[flickr](http://www.flickr.com/photos/spockz "Spockz' photostream") account.
 
 
 <div id="myCarousel" class="carousel slide">
