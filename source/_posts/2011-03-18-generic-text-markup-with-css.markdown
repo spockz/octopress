@@ -1,10 +1,10 @@
---- 
+---
 layout: post
 title: Generic Text Markup with CSS
-tags: 
+tags:
 - xhtml
 - css
-- latex
+- LaTeX
 - open source
 comments: true
 ---
