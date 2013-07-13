@@ -31,9 +31,9 @@ multiplication, and constants.
 ``` haskell
 type Exp = Int
 
-plus  :: Exp -> Exp           -> Exp
-times :: Exp -> Exp           -> Exp
-const :: Int                  -> Exp
+plus  :: Exp -> Exp -> Exp
+times :: Exp -> Exp -> Exp
+const :: Int        -> Exp
 ```
 
 We embedded the *data* of the domain in Haskell and provided functions for
