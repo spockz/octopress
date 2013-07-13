@@ -152,3 +152,14 @@ $fluidGridGutterWidth1920:     percentage($gridGutterWidth1920/$gridRowWidth1920
   }
 
 }
+
+figure {
+  .code {
+  text-align: left;
+  }
+  text-align: center;
+}
+
+.footnotes:before{
+  content: "╌╌╌╌╌╌╌╌╌╌";
+}
