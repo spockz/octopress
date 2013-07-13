@@ -113,7 +113,8 @@ diff (Plus  l r) dx      = diff l dx `Plus` diff r dx
 diff (Times l r) dx      = (diff l dx `Times` r) `Plus` (l `Times` diff r dx)
 diff (Const _)   _       = Const 0
 diff (Assign var x e) dx = Assign var x (diff e dx)
-diff (Var var)        dx = not (var `elem` env)
+diff (Var var)        dx | var == dx = Const 1
+                         | otherwise = Const 0
 ```
 
 Deep embedding allows us to utilize the semantics of our model by defining
