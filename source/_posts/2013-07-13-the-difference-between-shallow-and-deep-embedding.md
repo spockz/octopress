@@ -59,7 +59,7 @@ assign :: String -> Int -> Exp
 var    :: String        -> Exp
 ```
 
-And in our naivity we can write the expression $x + 6 * 8$ as follows: $\rightarrow$
+And in our naivity we can write the expression $x + 6 * 8$ as follows:
 
 ``` haskell
 val = var "x" `plus` (const 6 `times` const 8)
@@ -75,9 +75,9 @@ val = let "x" 4 (var "x" `plus` (const 6 `times` const 8))
 Now we have assigned a value to `x` and we can safely use it in our
 expression.
 
-Had we used a deep-embedding we could have prevented the cataclysmic error by
+Had we used a deep embedding we could have prevented the cataclysmic error by
 first checking whether each variable is assigned before it is used. We create
-a deep-embedding of our expression by using a Haskell data type.
+a deep embedding of our expression by using a Haskell data type.
 
 ``` haskell
 data Exp where
@@ -95,17 +95,18 @@ variable before it is defined.[^folds]
 ``` haskell
 useBeforeDefine :: Exp -> Bool
 useBeforeDefine e = f []
-
-f :: [String] -> Exp -> Bool
-f (Plus  l r) env      = useBeforeDefine l env || useBeforeDefine r env
-f (Times l r) env      = useBeforeDefine l env || useBeforeDefine r env
-f (Const _)   _        = False
-f (Assign var _ e) env = useBeforeDefine e (var : env)
-f (Var var)        env = not (var `elem` env)
+  where
+  f :: [String] -> Exp -> Bool
+  f (Plus  l r) env      = useBeforeDefine l env || useBeforeDefine r env
+  f (Times l r) env      = useBeforeDefine l env || useBeforeDefine r env
+  f (Const _)   _        = False
+  f (Assign var _ e) env = useBeforeDefine e (var : env)
+  f (Var var)        env = not (var `elem` env)
 ```
 
-We can even define transformations of our expression; e.g. differentiate with
-respect to a variable.
+With the function above we can *check* whether an expression is well-formed.
+With our deep embedding we can even define transformations of our expression;
+e.g. differentiate with respect to a variable.
 
 ```
 diff :: Exp -> String -> Exp
@@ -120,14 +121,14 @@ diff (Var var)        dx | var == dx = Const 1
 Deep embedding allows us to utilize the semantics of our model by defining
 multiple interpretations of our DSL. The downside is that just calculating the
 value of our expression has become slower due to the added overhead of the
-constructors, whereas the the shallow-embedding can be evaluated by only using
+constructors, whereas the shallow embedding can be evaluated by only using
 `Int`s.
 
 In short:
 
-* **Shallow-embedding** should be used when you only need a single interpretation or
+* **Shallow embedding** should be used when you only need a single interpretation or
   when you are in a hurry.
-* **Deep-embedding** should be used in all other cases.
+* **Deep embedding** should be used in all other cases.
 
 More reading material on this subject:
 
