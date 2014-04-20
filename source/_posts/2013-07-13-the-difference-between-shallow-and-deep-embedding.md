@@ -10,7 +10,7 @@ tags:
   - Graphviz
 ---
 
-Deep and shallow embedding are terms associated with Domain Specific Languages
+DEEP and shallow embedding are terms associated with Domain Specific Languages
 (DSL). A DSL is  a language geared toward a specific domain. The [dot language](http://www.graphviz.org/content/dot-language){:target="_blank"} is
 an example of such a DSL for describing Graphs. Conceptually, a shallow
 embedding captures the semantics of the data of the domain in a data type and
