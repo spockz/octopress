@@ -138,5 +138,3 @@ More reading material on this subject:
 * [Deep versus Shallow embeddings in Coq](http://cstheory.stackexchange.com/questions/1370/shallow-versus-deep-embeddings)
 
 [^folds]: Most often you should use [folds](/2009/12/17/haskell-datatypes-and-folds/) ([2](/2010/01/03/haskell-datatypes-and-folds-part-ii/)) instead of this direct recursion.
-
-Test
