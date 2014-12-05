@@ -50,6 +50,8 @@ Additionally Mesos can be used to provide the scheduling. Docker Inc. also annou
 
 More information also on [github](https://github.com/docker/swarm).
 
+It appears that swarm is not supported yet by machine, sadly.
+
 ### Managing inter-container dependencies: Composer
 
 Setting up applications that require multiple containers to function correctly is difficult. Keeping them running is even harder. Docker proposes the `Docker Composer`.
