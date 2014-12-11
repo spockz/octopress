@@ -69,7 +69,7 @@ Some fun facts:
 * 157 TB of data transmitted each month
 * 50 TB of data stored
 
-Timeline for 2015:
+The timeline for 2015:
 
 1. Increase performance of pulls
 2. Increase transparancy by adding and improving on status pages
