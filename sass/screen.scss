@@ -1,20 +1,11 @@
-@font-face {
-  font-family: pagella;
-  src: url('../fonts/texgyrepagella-regular.otf'),
-      url('../fonts/texgyrepagella-regular.eot'),
-      url('../fonts/texgyrepagella-regular.svg'),
-      url('../fonts/texgyrepagella-regular.ttf')
-      url('../fonts/texgyrepagella-regular.woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @import "compass";
 
-$sansFontFamily: Palatino, Palatino Linotype, pagella;
-$serifFontFamily: Palatino, Palatino Linotype, pagella;
+@import 'bootstrap/_variables';
 
-@import "bootstrap";
+$sansFontFamily: 'Open Sans', sans-serif;
+$serifFontFamily: 'Droid Serif', serif;
+
+@import "_bootstrap";
 @import "bootstrap-responsive";
 
 $text-color: #999;
@@ -87,6 +78,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1.entry-title {
   margin-bottom: 0;
 }
+h1, h2, h3, h4 {
+  font-family: $serifFontFamily;
+}
 
 aside.sidebar section.tag-cloud .rank-5 {font-size:small}
 aside.sidebar section.tag-cloud .rank-4 {font-size:normal}
@@ -104,7 +98,7 @@ article:last-of-type {
 }
 
 .carousel-control {
-  font-family: sans-serif;
+  font-family: $sansFontFamily;
 }
 
 .carousel-inner img {
