@@ -7,15 +7,15 @@ sharing: true
 footer: true
 ---
 
-Alessandro Vermeulen is a Computer Sciences (Masters) student at Utrecht
+Alessandro Vermeulen is a Computer Sciences (Masters) graduate from Utrecht
 University specialized in Software Technology. Alessandro obtained his honorary
 Bachelors degree in Computer Science also at Utrecht University. Among his core
-interests at university are Haskell, compilers and program analysis. Herein also
-lay his professional interests.
+interests are Functional Programming (in both Haskell and Scala), compilers and 
+program analysis. 
 
-Alessandro is currently employed at [BINK software B.V.](http://www.binksoftware.nl) 
-where he maintains the CRM and licensing mechanisms as well the technical side
-of the web presence.
+Alessandro is currently employed at ING where he focuses on incorporating functional
+programming, reactive systems, and other software technology best practices in daily
+practice.
 
 Among his hobbies are Volleyball and
 [photography](/photography). Additionally Alessandro is also a referee in the NeVoBo competition.
