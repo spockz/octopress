@@ -11,8 +11,6 @@ tags:
   - Finagle
 ---
 
-# FinagleCon
-
 FinagleCon was held at TwitterHQ in San Francisco. It is refreshing to see a nice working atmosphere with free food and drinks. Now for the contents.
 
 Twitter's RPC framework, Finagle, has been in production since [August 2010](todo) and has over 140 contributors. In addition to Twitter, it has been adopted by many large companies such as SoundCloud. Initially written in Java with FP constructs (monads, maps, etc.) all over, it was soon after rewritten in Scala.
