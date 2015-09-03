@@ -66,10 +66,7 @@ things for Finagle.
 
 In order to make more informed decision, we will get a new Failure type which
 contains more information instead of 'just' a `Throwable`. In this new
-`Failure`, the fact whether `retry` is possible is decoupled from the cause. I'm
-interested in how this works out as deciding whether to retry is certainly a
-(derivative) aspect of the error but it is up to the component that receives the
-error to decide whether to retry or not.
+`Failure`, an added field indicates whether it is safe to `retry`.
 
 There are several issues with the current way of fine-tuning Finagle, as
 mentioned, you need to be an expert to use all the configuration parameters
